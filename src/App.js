@@ -31,7 +31,9 @@ function App() {
           <Routes>
             <Route path="/" element={<AnimalList />} />
             <Route path="/animal/:id" element={<SingleAnimalView />} />
-          
+
+
+  
 
             <Route path="/animal_assignment" element={<AnimalAssignment />} />
             <Route path="/task_management" element={<TaskManagement />} />
