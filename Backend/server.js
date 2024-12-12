@@ -7,11 +7,9 @@ const app = express();
 app.use('/uploads', express.static('uploads'));
 
 
-// Middleware
 app.use(express.json());
 app.use(cors());
 
-// Connect to MongoDB
 mongoose.connect('mongodb+srv://Bilalkhan:Pakistan@cluster1.moct8fi.mongodb.net/ZooManagementSystem', {
     
 })
